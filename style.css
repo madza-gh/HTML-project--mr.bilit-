@@ -362,7 +362,10 @@ html {
 }
 
 body {
-  font-family: "Open Sans";
+  font-family: "Vazirmatn", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
   line-height: 1.7rem;
   direction: rtl;
   font-size: 0.9rem;
@@ -396,4 +399,38 @@ ol {
 .container {
   max-width: 74rem;
   margin: 0 auto;
+}
+
+address{
+    font-style: normal;
+}
+
+/********************************* header **********************************/
+
+.header{
+  background-image: url(images/slider2.JPG);
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo{
+  flex-basis: 10%;
+}
+
+.menu{
+  flex-basis: 90%;
+}
+
+.menu-list{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu-items{
+  display: flex;
+  gap:24px;
 }
