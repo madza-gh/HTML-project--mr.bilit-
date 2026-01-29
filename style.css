@@ -454,7 +454,7 @@ address{
 .menu-items{
   display: flex;
   gap:24px;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .menu-items a {
@@ -470,4 +470,21 @@ address{
 
 .menu-items a:hover{
   background-color: #0000001a;
+}
+
+.sub-menu{
+  background-color: #fff;
+  font-size: 0.9rem;
+  width: 200px;
+  position: absolute;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+
+}
+.sub-menu li{
+    padding: 5px 5px;
+}
+
+.sub-menu a{
+  color: #000000;
 }
